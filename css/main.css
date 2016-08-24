@@ -133,17 +133,6 @@
   .hidden-sm {
     display: none; } }
 
-.img-sm {
-  height: 270px; }
-
-.img-lg {
-  height: 420px;
-  width: 420px; }
-  @media (max-width: 32em) {
-    .img-lg {
-      width: 300px;
-      height: 300px; } }
-
 header {
   height: 500px;
   background: #253454;
@@ -289,6 +278,12 @@ hr {
       margin: 1em 0 0 32px;
       text-align: left; } }
 
+.other-project {
+  width: 320px; }
+  @media screen and (min-width: 400px) {
+    .other-project {
+      width: 366px; } }
+
 .text-holder {
   margin: 3em;
   min-width: 400px; }
@@ -298,11 +293,27 @@ hr {
       min-width: 250px; } }
 
 .image-holder {
-  margin: 0 1em;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  position: relative; }
+  position: relative;
+  height: 270px;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin: 0 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .image-holder.first {
+    margin: 0 10px 0 0; }
+  .image-holder.last {
+    margin: 0 0 0 10px; }
   .image-holder:hover .screen {
     opacity: 0.9; }
+
+.img-lg {
+  height: 420px;
+  width: 420px; }
+  @media (max-width: 32em) {
+    .img-lg {
+      width: 300px;
+      height: 300px; } }
 
 .screen {
   position: absolute;
@@ -313,14 +324,11 @@ hr {
   -webkit-transition: all 0.5s;
           transition: all 0.5s; }
   .screen h3 {
-    margin-top: 15%; }
+    margin-top: 40px; }
   .screen p {
     margin: 0 10%;
     font-weight: bold;
     line-height: 1.4; }
-
-.other-project {
-  width: 350px; }
 
 .banner {
   padding: 2em 0 5em;

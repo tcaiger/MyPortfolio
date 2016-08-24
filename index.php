@@ -63,52 +63,43 @@
 	<div class="divide30"></div>
 	<div class="container flex flex-j-between flex-wrap">
 
-		<!-- =============================================== -->
-		<!--             NZ Hiking Group                     -->
-		<!-- =============================================== -->
 		<div class="other-project">
-			<div class="image-holder img-sm" style="background: url('images/hike.png'); background-size: cover">
+			<div class="image-holder first" style="background-image: url('images/36-degrees.png')">
 				<div class="screen text-center">
-					<h3 class="text-white">NZ Hiking Group Website</h3>
-					<p class="text-white">Built with custom PHP, Rest API, Angular JS, JQuery, Foundation, SASS, Bower, Gulp, Geolocation , Google Maps & Email.</p>
+					<h3 class="text-white">36 Degrees</h3>
+					<p class="text-white">Custom designed yacht directory website. Built with Silverstripe CMS, twitter bootstrap, SASS and grunt js.</p>
 					<div class="flex flex-j-center flex-a-align">
-						<a href="http://www.hike.tomcaiger.com/" target="_blank" class="btn text-white">View Project</a>
+						<a href="http://www.36degrees.nz" target="_blank" class="btn text-white">View Project</a>
 					</div>
 				</div>
 			</div>
-			<p class="text-grey text-center">Custom PHP & JS</p>
+			<p class="text-grey text-center">36 Degrees Yacht Brokers</p>
 		</div>
 
-		<!-- =============================================== -->
-		<!--            Maternity Associates                 -->
-		<!-- =============================================== -->
 		<div class="other-project">
-			<div class="image-holder img-sm" style="background: url('images/maternity.png'); background-size: cover;">
+			<div class="image-holder" style="background-image: url('images/streamland.png')">
 				<div class="screen text-center">
-					<h3 class="text-white">Silverstripe Clinic Theme</h3>
-					<p class="text-white">Custom Silverstripe theme built for health care clinics.</p>
+					<h3 class="text-white">NZ Streamland</h3>
+					<p class="text-white">Custom designed website for a health product company. Includes a large product collection and beautiful user interface.</p>
 					<div class="flex flex-j-center flex-a-align">
-						<a href="http://maternityassociates.tomcaiger.com/" target="_blank" class="btn text-white">View Project</a>
+						<a href="http://www.nzstreamland.com" target="_blank" class="btn text-white">View Project</a>
 					</div>
 				</div>
 			</div>
-			<p class="text-grey text-center">Custom Silverstripe Theme</p>
+			<p class="text-grey text-center">NZ Streamland</p>
 		</div>
 
-		<!-- =============================================== -->
-		<!--                   Portfolio                     -->
-		<!-- =============================================== -->
 		<div class="other-project">
-			<div class="image-holder img-sm" style="background: url('images/portfolio.png'); background-size: cover">
+			<div class="image-holder last" style="background-image: url('images/elandra1.png')">
 				<div class="screen text-center">
-					<h3 class="text-white">Wordpress Portfolio Theme</h3>
-					<p class="text-white">Custom Wordpress Theme built for photography portfolio sites.</p>
+					<h3 class="text-white">Elandra Yachts</h3>
+					<p class="text-white">Custom Silverstripe theme built for a super yacht manufacturer. A georgious site with a ton of custom front end components.</p>
 					<div class="flex flex-j-center flex-a-align">
-						<a href="http://portfolio.tomcaiger.com/" target="_blank" class="btn text-white">View Project</a>
+						<a href="http://elandradev.echo.weareonfire.co.nz" target="_blank" class="btn text-white">View Project</a>
 					</div>
 				</div>
 			</div>
-			<p class="text-grey text-center">Custom Wordpress Theme</p>
+			<p class="text-grey text-center">Elandra Yachts</p>
 		</div>
 
 		

@@ -57,17 +57,3 @@
   }
 }
 
-// Images
-// -------------
-.img-sm {
-  height : 270px;
-}
-
-.img-lg {
-  height : 420px;
-  width  : 420px;
-  @media (max-width : $small) {
-    width  : 300px;
-    height : 300px;
-  }
-}

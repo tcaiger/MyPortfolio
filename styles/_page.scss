@@ -78,8 +78,15 @@ hr {
   }
 }
 
-// Screens
-// ---------------------------
+// Other Project
+// ----------------------
+.other-project {
+  width : 320px;
+  @media screen and (min-width: 400px){
+    width :366px;
+  }
+}
+
 .text-holder {
   margin    : 3em;
   min-width : 400px;
@@ -90,13 +97,35 @@ hr {
 }
 
 .image-holder {
-  margin     : 0 1em;
-  box-shadow : 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   position   : relative;
+  height : 270px;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin: 0 5px;
+  box-shadow : 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  &.first{
+    margin: 0 10px 0 0;
+  }
+  &.last{
+    margin: 0 0 0 10px;
+  }
   &:hover {
     .screen {
       opacity : 0.9;
     }
+  }
+}
+
+
+// Images
+// -------------
+.img-lg {
+  height : 420px;
+  width  : 420px;
+  @media (max-width : $small) {
+    width  : 300px;
+    height : 300px;
   }
 }
 
@@ -108,7 +137,7 @@ hr {
   opacity    : 0;
   transition : all 0.5s;
   h3 {
-    margin-top : 15%;
+    margin-top : 40px;
   }
   p {
     margin      : 0 10%;
@@ -117,11 +146,6 @@ hr {
   }
 }
 
-// Other Project
-// ----------------------
-.other-project {
-  width : 350px;
-}
 
 // Banner
 // ---------------
