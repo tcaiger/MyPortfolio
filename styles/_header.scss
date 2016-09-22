@@ -1,17 +1,42 @@
 // ================================
 // Header
 // ================================
-header {
-  height     : 500px;
-  background : $primary-color;
+.hero {
   position   : relative;
+  height     : 1000px;
+  background : $primary-color;
+
+  .contact-top {
+    margin      : 0;
+    padding-top : 1em;
+    text-align  : right;
+    p {
+      margin         : 0;
+      padding-bottom : 0.5em;
+    }
+  }
+  .scroll {
+    position    : absolute;
+    width       : 120px;
+    margin-left : -60px;
+    left        : 50%;
+    bottom      : 2em;
+    font-size   : 0.9em;
+  }
+
+}
+
+.hero-content{
+  position: absolute;
+  top: 45%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
   h1 {
     margin      : 0;
     font-weight : 900;
     font-size   : 4em;
-    margin-top  : 12%;
     @media (max-width : $small) {
-      margin-top : 25%;
       font-size  : 3em;
     }
   }
@@ -31,22 +56,4 @@ header {
       font-size : 1em;
     }
   }
-  .contact-top {
-    margin      : 0;
-    padding-top : 1em;
-    text-align  : right;
-    p {
-      margin         : 0;
-      padding-bottom : 0.5em;
-    }
-  }
-  .scroll {
-    position    : absolute;
-    width       : 120px;
-    margin-left : -60px;
-    left        : 50%;
-    bottom      : 2em;
-    font-size   : 0.9em;
-  }
-
 }

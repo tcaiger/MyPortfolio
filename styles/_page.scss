@@ -80,6 +80,12 @@ hr {
 
 // Other Project
 // ----------------------
+.other-projects-heading{
+  @media screen and (min-width: 800px){
+    text-align: center;
+  }
+}
+
 .other-project {
   width : 320px;
   @media screen and (min-width: 400px){
