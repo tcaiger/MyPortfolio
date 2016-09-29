@@ -89,19 +89,6 @@
 			<p class="text-grey text-center">NZ Streamland</p>
 		</div>
 
-		<!--<div class="other-project">-->
-		<!--	<div class="image-holder last" style="background-image: url('images/elandra1.png')">-->
-		<!--		<div class="screen text-center">-->
-		<!--			<h3 class="text-white">Elandra Yachts</h3>-->
-		<!--			<p class="text-white">Custom Silverstripe theme built for a super yacht manufacturer. A georgious site with a ton of custom front end components.</p>-->
-		<!--			<div class="flex flex-j-center flex-a-align">-->
-		<!--				<a href="http://elandradev.echo.weareonfire.co.nz" target="_blank" class="btn text-white">View Project</a>-->
-		<!--			</div>-->
-		<!--		</div>-->
-		<!--	</div>-->
-		<!--	<p class="text-grey text-center">Elandra Yachts</p>-->
-		<!--</div>-->
-
 		
 	</div>
 	<div class="divide100"></div>
