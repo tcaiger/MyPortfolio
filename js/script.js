@@ -5,7 +5,7 @@ $(document).ready(function() {
 	// ================================
 	function setHeight() {
     	windowHeight = $(window).innerHeight();
-    	$('header').css('min-height', windowHeight);
+    	$('header').css('height', windowHeight);
   	};
   	setHeight();
   
