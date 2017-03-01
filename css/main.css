@@ -224,7 +224,7 @@ body {
   box-sizing: border-box; }
 
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 2em; }
 
@@ -240,10 +240,10 @@ hr {
 
 .btn {
   font-weight: 700;
-  padding: 0.5em 1em;
+  padding: 0.6em 1.2em;
   margin: 2em 1em 1em;
   border: 2px solid white;
-  border-radius: 5px;
+  border-radius: 2px;
   -webkit-transition: all 0.1s;
           transition: all 0.1s; }
   .btn:hover {
@@ -253,7 +253,7 @@ hr {
 .btn-bg-secondary {
   font-weight: 700;
   font-size: 1em;
-  padding: 0.5em 1em;
+  padding: 0.6em 1.2em;
   color: #7E6A51;
   border: 2px solid #7E6A51;
   border-radius: 2px;
@@ -268,7 +268,7 @@ hr {
   font-weight: 700;
   color: #91B93E;
   font-size: 1em;
-  padding: 0.5em 1em;
+  padding: 0.6em 1.2em;
   border: 2px solid #91B93E;
   border-radius: 2px;
   -webkit-transition: all 0.1s;
@@ -286,14 +286,14 @@ hr {
       text-align: left; } }
 
 @media screen and (min-width: 800px) {
-  .other-projects-heading {
+  .projects-heading {
     text-align: center; } }
 
-.other-project {
+.project {
   width: 320px; }
   @media screen and (min-width: 400px) {
-    .other-project {
-      width: 366px; } }
+    .project {
+      width: 395px; } }
 
 .text-holder {
   margin: 3em;
@@ -305,7 +305,7 @@ hr {
 
 .image-holder {
   position: relative;
-  height: 270px;
+  height: 320px;
   background-size: cover;
   background-position: top left;
   background-repeat: no-repeat;
@@ -316,7 +316,7 @@ hr {
   .image-holder.last {
     margin: 0 0 0 10px; }
   .image-holder:hover .screen {
-    opacity: 0.9; }
+    opacity: 0.95; }
 
 .img-lg {
   height: 420px;
@@ -335,7 +335,8 @@ hr {
   -webkit-transition: all 0.5s;
           transition: all 0.5s; }
   .screen h3 {
-    margin-top: 40px; }
+    margin-top: 45px;
+    font-size: 1.4em; }
   .screen p {
     margin: 0 10%;
     font-weight: bold;

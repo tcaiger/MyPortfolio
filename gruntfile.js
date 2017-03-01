@@ -1,7 +1,3 @@
-/**
- * Created by Nathan on 5/05/2015.
- */
-
 
 "use strict";
 
@@ -49,6 +45,8 @@ module.exports = function (grunt) {
 
         /**
          * Autoprefix the css
+         *
+         * @todo: pathway for main.min.css generation.
          */
         autoprefixer: {
             options: {
@@ -71,7 +69,8 @@ module.exports = function (grunt) {
                 trace  : true,
                 options: {
                     spawn    : false,
-                    sourcemap: true
+                    sourcemap: true,
+                    livereload: true
                 }
             }
         },
@@ -94,7 +93,7 @@ module.exports = function (grunt) {
 
 
     /* Default build task */
-    grunt.registerTask('default', ['sass:dist']);
+    grunt.registerTask('default', ['sass:dist', 'autoprefixer', 'cssmin']);
 
     /* Dev build task */
     grunt.registerTask('dev', ['sass:dev', 'autoprefixer', 'watch:sass']);
