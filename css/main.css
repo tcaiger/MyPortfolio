@@ -144,6 +144,10 @@
     .hero .contact-top p {
       margin: 0;
       padding-bottom: 0.5em; }
+    .hero .contact-top i {
+      position: relative;
+      top: 2px;
+      font-size: 18px; }
   .hero .scroll {
     position: absolute;
     width: 120px;
@@ -182,6 +186,29 @@
       .hero-content h3 {
         font-size: 1em; } }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?v7p8qc");
+  src: url("../fonts/icomoon.eot?v7p8qc#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?v7p8qc") format("truetype"), url("fonts/icomoon.woff?v7p8qc") format("woff"), url("../fonts/icomoon.svg?v7p8qc#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-linkedin:before {
+  content: "\eac9"; }
+
 footer {
   padding: 2em 0 2em 0;
   background: #253454; }
@@ -199,8 +226,12 @@ footer {
   footer h3 {
     color: #FED14F;
     margin-bottom: 1em; }
+  footer i {
+    position: relative;
+    top: 2px;
+    font-size: 18px; }
   footer p {
-    margin: 0;
+    margin: 0 0 2px 0;
     line-height: 1.2; }
   footer .skills {
     text-align: right; }
@@ -231,6 +262,14 @@ body {
 a {
   text-decoration: none; }
 
+.linkedin {
+  color: white;
+  -webkit-transition: color 0.3s ease;
+          transition: color 0.3s ease; }
+  .linkedin:hover {
+    cursor: pointer;
+    color: #FED14F; }
+
 hr {
   background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.2), transparent);
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent);
@@ -254,13 +293,13 @@ hr {
   font-weight: 700;
   font-size: 1em;
   padding: 0.6em 1.2em;
-  color: #7E6A51;
-  border: 2px solid #7E6A51;
+  color: #98CC52;
+  border: 2px solid #98CC52;
   border-radius: 2px;
   -webkit-transition: all 0.1s;
           transition: all 0.1s; }
   .btn-bg-secondary:hover {
-    background-color: #7E6A51;
+    background-color: #98CC52;
     color: #fff;
     cursor: pointer; }
 
@@ -290,10 +329,24 @@ hr {
     text-align: center; } }
 
 .project {
-  width: 320px; }
-  @media screen and (min-width: 400px) {
+  width: 100%; }
+  @media screen and (min-width: 700px) {
     .project {
-      width: 395px; } }
+      width: 50%; } }
+  @media screen and (min-width: 1050px) {
+    .project {
+      width: 33%; } }
+
+.image-holder {
+  position: relative;
+  padding-bottom: 85%;
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin: 0 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .image-holder:hover .screen {
+    opacity: 0.95; }
 
 .text-holder {
   margin: 3em;
@@ -302,21 +355,6 @@ hr {
     .text-holder {
       margin: 0;
       min-width: 250px; } }
-
-.image-holder {
-  position: relative;
-  height: 320px;
-  background-size: cover;
-  background-position: top left;
-  background-repeat: no-repeat;
-  margin: 0 5px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-  .image-holder.first {
-    margin: 0 10px 0 0; }
-  .image-holder.last {
-    margin: 0 0 0 10px; }
-  .image-holder:hover .screen {
-    opacity: 0.95; }
 
 .img-lg {
   height: 420px;
@@ -335,7 +373,7 @@ hr {
   -webkit-transition: all 0.5s;
           transition: all 0.5s; }
   .screen h3 {
-    margin-top: 45px;
+    margin-top: 15%;
     font-size: 1.4em; }
   .screen p {
     margin: 0 10%;
