@@ -1,0 +1,75 @@
+// Mixins
+// ---------------------------------
+@mixin bg-colors {
+  @each $name, $hex in $bg-colors {
+    &-#{$name} {
+      background-color: $hex;
+    }
+  }
+}
+
+@mixin text-colors {
+  @each $name, $hex in $text-colors {
+    &-#{$name} {
+      color: $hex;
+    }
+  }
+}
+
+@mixin list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+// Background Colours
+// -------------------
+.bg {
+  @include bg-colors;
+}
+
+// Text Colours
+// -------------------
+.text {
+  @include text-colors;
+}
+
+// Divides
+// ---------------------------------
+.divide10 {
+  height: 10px;
+}
+
+.divide20 {
+  height: 20px;
+}
+
+.divide30 {
+  height: 30px;
+}
+
+.divide50 {
+  height: 50px;
+}
+
+.divide100 {
+  height: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// Hide
+// ------------
+.hidden-lg {
+  @media (min-width: $large) {
+    display: none;
+  }
+}
+
+.hidden-sm {
+  @media (max-width: $large) {
+    display: none;
+  }
+}

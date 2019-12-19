@@ -1,0 +1,42 @@
+@mixin btn-colors {
+  @each $name, $hex in $btn-colors {
+    &-#{$name} {
+      color: $hex;
+      border: 2px solid $hex;
+      font-weight: 700;
+      font-size: 1em;
+      padding: 0.6em 1.2em;
+      border-radius: 2px;
+      transition: all 0.1s;
+
+      &:hover {
+        background-color: $hex;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// Coloured Buttons
+// -----------------
+.btn-bg {
+  @include btn-colors;
+}
+
+// White Button
+// -----------------
+.btn {
+  font-weight: 700;
+  padding: 0.6em 1.2em;
+  margin: 2em 1em 1em;
+  border: 2px solid white;
+  color: white;
+  border-radius: 2px;
+  transition: all 0.1s;
+
+  &:hover {
+    background-color: white;
+    color: #333;
+  }
+}

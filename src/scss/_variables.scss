@@ -1,0 +1,36 @@
+// colors
+$color-cab: #58595b;
+$color-dia: #336599;
+$color-2degrees: #009ed8;
+$color-olympic: #ed2449;
+
+$primary-color: #253454;
+$secondary-color: #FED14F;
+$grey: #555;
+$dark-grey: #333;
+
+// Break Points
+$small: 32em;
+$medium: 47em;
+$large: 75em;
+
+$text-colors: (
+        'white': white,
+        'grey': $grey,
+        'dark-grey': $dark-grey,
+        'cab': $color-cab,
+        'dia': $color-dia,
+        '2degrees': $color-2degrees,
+        'olympic': $color-olympic,
+);
+
+$bg-colors: (
+        'grey': #ECEAEB,
+);
+
+$btn-colors: (
+        'cab': $color-cab,
+        'dia': $color-dia,
+        '2degrees': $color-2degrees,
+        'olympic': $color-olympic,
+);
